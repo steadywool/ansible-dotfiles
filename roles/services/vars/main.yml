@@ -7,4 +7,3 @@ system_services:
 
 user_services:
   - podman.socket
-  - syncthing.service

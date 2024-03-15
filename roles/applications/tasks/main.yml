@@ -4,3 +4,6 @@
 
 - ansible.builtin.import_tasks: antimicrox.yml
   tags: applications.antimicrox
+
+- ansible.builtin.import_tasks: syncthing.yml
+  tags: applications.syncthing

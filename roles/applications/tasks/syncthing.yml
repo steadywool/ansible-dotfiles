@@ -1,0 +1,10 @@
+---
+- name: Create & run Syncthing container
+  containers.podman.podman_container:
+    name: syncthing
+    image: syncthing/syncthing
+    volumes:
+      - "/home/{{ ansible_user_id }}:/var/syncthing"
+    network: host
+    state: started
+    restart_policy: always

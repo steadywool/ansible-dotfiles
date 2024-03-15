@@ -11,7 +11,7 @@ flathub:
     # Chat
     - com.discordapp.Discord
 
-    # Personal
+    # Notes & passwords
     - org.keepassxc.KeePassXC
     - md.obsidian.Obsidian
 
